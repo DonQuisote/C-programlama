@@ -1,0 +1,15 @@
+#include <stdio.h> 
+ int main() 
+ {
+	printf("#######\n");
+	printf("##\n");
+	printf("#\n");
+	printf("##\n");
+	printf("#\t\t\n");
+	printf("#\n");
+	printf("#\n");
+
+	return(0);
+}
+//printf de tırnak içine ne yazarsan onu program yazdırır 
+// \n işareti boşluk bırakmaya yarar

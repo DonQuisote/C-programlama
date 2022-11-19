@@ -1,0 +1,23 @@
+      #include <stdio.h> 
+  //include içermek demek
+ int main ()  //int main () yapısı ana fonksiyonu tanımlıyor
+  {
+     printf("Hello C"); // printf fonksiyonu yazdır
+     return(0); //return  geri dön demek  re tekrar turn dönme
+  }
+
+   /* include ile kütüphane tanımlıyor
+         " <<studio.h> " ana fonksiyonların olduğu
+     Kütüphane 
+       
+       bunu f(x) g(x) fonksiyonu gibi 
+düşünebilirsin
+       f(g(x)) şeklinde bir fonksiyon 
+tanımlaman gerekirse kullanicaksin 
+yoksa içi boş int main() olucak
+ fonksiyonu tanımladıktan sonra {} 
+parantezi ile fonksiyonun içeriğini
+ giriyoruz.
+     return  geri dön demek 
+     re tekrar turn dönmek*/     
+    

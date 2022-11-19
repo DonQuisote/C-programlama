@@ -1,0 +1,17 @@
+#include <stdio.h> 
+ int main() 
+ {
+    char function1 = 'X';
+    char function2 = 'M';
+    char function3 = 'L';
+
+	printf("The reverse of %c%c%c is %c%c%c\n",
+		function1, function2, function3,
+		function3, function2, function1);
+
+	return(0);
+}
+
+// printf (" %c, function1")   %c char için function1 fonksiyonun ismi 
+// virgülden sonra hangi sıra ile fonksiyon ismi girilirse program %c ile sırasıyla onu oynatır.
+ 

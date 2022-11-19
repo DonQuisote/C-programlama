@@ -1,0 +1,19 @@
+#include <stdio.h> 
+/* genişlik çarpı yükseklik Alanı verir */
+int genislik;  // genişlik      
+int h;       //  yükseklik
+
+int alan;      //  Alan   
+int r;      // yarıçap
+
+int main() {
+	h = 7;
+	genislik = 5;
+
+    r = 2*(h + genislik);
+	printf("Perimeter of the rectangle = %d inches\n", r);
+	
+	alan = h * genislik;
+	printf("Area of the rectangle = %d square inches\n", alan);
+
+return(0);}
