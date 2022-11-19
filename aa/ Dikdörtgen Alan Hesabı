@@ -4,16 +4,16 @@ int genislik;  // genişlik
 int h;       //  yükseklik
 
 int alan;      //  Alan   
-int r;      // yarıçap
+int r;      // çevre
 
 int main() {
 	h = 7;
 	genislik = 5;
 
     r = 2*(h + genislik);
-	printf("Perimeter of the rectangle = %d inches\n", r);
+	printf("Dikdörtgenin çevresi = %d metre\n", r);
 	
 	alan = h * genislik;
-	printf("Area of the rectangle = %d square inches\n", alan);
+	printf("Dikdörtgen alanı= %d metre kare\n", alan);
 
 return(0);}

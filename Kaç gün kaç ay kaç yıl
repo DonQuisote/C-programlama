@@ -1,0 +1,20 @@
+#include <stdio.h> 
+int main()
+{
+    int gun, yıl, hafta;
+     
+    scanf("%d",&gun); // & adress verir hangi fonksiyona atanacağını belirlersin 
+    gun = 1329;
+    // verilen gün sayısının Kaç yıl kaç ay kaç gün olduğunu bulmak
+    yıl = gun/365;
+     
+    hafta = (gun % 365)/7;
+    
+    gun = gun- ((yıl*365) + (hafta*7));
+
+    printf("Yıl: %d\n", yıl);
+    printf("Hafta: %d\n", hafta);
+    printf("Günler: %d \n", gun);
+
+    return 0;
+}

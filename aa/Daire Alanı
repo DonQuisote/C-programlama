@@ -1,0 +1,14 @@
+#include <stdio.h> 
+int main() {
+   int radius;
+   float alan, r;    // float virgülden sonra 2 rakam için
+   radius = 6;
+
+   r = 2*3.14*radius; // 2 pi  r   çevre
+   printf("Dairenin çevresi = %f metre \n", r);
+	
+	alan = 3.14*radius*radius; // pi r kare
+	printf("Dairenin Alanı = %f metre kare \n", alan);
+
+return(0);
+}

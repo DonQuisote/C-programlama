@@ -5,7 +5,7 @@
     char function2 = 'M';
     char function3 = 'L';
 
-	printf("The reverse of %c%c%c is %c%c%c\n",
+	printf("Fonksiyonun tersi %c%c%c \n %c%c%c dir \n",
 		function1, function2, function3,
 		function3, function2, function1);
 
